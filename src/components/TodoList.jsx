@@ -2,7 +2,6 @@ import React from 'react'
 import TodoCard from './TodoCard'
 
 const TodoList = ({ todos, selectedTab, handleDeleteTodo, handleEditTodo }) => {
-  // const tab = 'Open'
   const filteredTodos =
     selectedTab === 'All'
       ? todos
